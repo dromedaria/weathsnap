@@ -1,0 +1,18 @@
+
+# See section "With Apache > Without a Dockerfile" on this page: https://hub.docker.com/_/php/
+#   docker run -d -p 8050:80 --name my-apache-php-app -v "$PWD":/var/www/html php:5.6-apache
+
+# Below docker container was created by above command.
+
+Linux 9e94f34a4d47 4.9.49-moby #1 SMP Fri Dec 8 13:40:02 UTC 2017 x86_64 GNU/Linux
+uid=0(root) gid=0(root) groups=0(root)
+/var/www/html
+
+PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="8"
+VERSION="8 (jessie)"
+ID=debian
+HOME_URL="http://www.debian.org/"
+SUPPORT_URL="http://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"

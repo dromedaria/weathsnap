@@ -1,0 +1,449 @@
+{
+
+
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1,
+      "conditions": 1
+    }
+  },
+
+
+  "location": {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "OR",
+    "city": "Portland",
+    "tz_short": "PST",
+    "tz_long": "America/Los_Angeles",
+    "lat": "45.50999832",
+    "lon": "-122.69000244",
+    "zip": "97201",
+    "magic": "1",
+    "wmo": "99999",
+    "l": "/q/zmw:97201.1.99999",
+    "requesturl": "US/OR/Portland.html",
+    "wuiurl": "https://www.wunderground.com/US/OR/Portland.html",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "icao": "KPDX",
+            "lat": "45.59000015",
+            "lon": "-122.59999847"
+          },
+          {
+            "city": "Vancouver",
+            "state": "WA",
+            "country": "US",
+            "icao": "KVUO",
+            "lat": "45.61999893",
+            "lon": "-122.66000366"
+          },
+          {
+            "city": "Portland Hillsboro",
+            "state": "OR",
+            "country": "US",
+            "icao": "KHIO",
+            "lat": "45.54000092",
+            "lon": "-122.94999695"
+          },
+          {
+            "city": "Portland Troutdale",
+            "state": "OR",
+            "country": "US",
+            "icao": "KTTD",
+            "lat": "45.54999924",
+            "lon": "-122.40000153"
+          }
+        ]
+      },
+      "pws": {
+        "station": [
+          {
+            "neighborhood": "Portland Heights",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL814",
+            "lat": 45.509354,
+            "lon": -122.700302,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Southwest Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL475",
+            "lat": 45.515461,
+            "lon": -122.682831,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "SW Hills, Portland, OR",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL503",
+            "lat": 45.501656,
+            "lon": -122.699875,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "PDX Headquarters",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL760",
+            "lat": 45.503304,
+            "lon": -122.675140,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Westerly, NW Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL125",
+            "lat": 45.524315,
+            "lon": -122.700302,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Downtown",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL280",
+            "lat": 45.523453,
+            "lon": -122.676208,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Hoyt Arboretum",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL322",
+            "lat": 45.515556,
+            "lon": -122.715652,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Arlington Heights",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL504",
+            "lat": 45.518322,
+            "lon": -122.714592,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Southwest Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL281",
+            "lat": 45.491199,
+            "lon": -122.700378,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Portland - West Hills",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL26",
+            "lat": 45.489799,
+            "lon": -122.691704,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "World Forestry Center - Washington Park",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL910",
+            "lat": 45.509922,
+            "lon": -122.719009,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Greenhills",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL861",
+            "lat": 45.502682,
+            "lon": -122.717987,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "West Hills NW Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL571",
+            "lat": 45.529297,
+            "lon": -122.706245,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Bridlemile",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL210",
+            "lat": 45.492470,
+            "lon": -122.710159,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Downtown",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL306",
+            "lat": 45.530651,
+            "lon": -122.674988,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Southwest Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL343",
+            "lat": 45.489967,
+            "lon": -122.671989,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Portland",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL514",
+            "lat": 45.501099,
+            "lon": -122.721519,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Sylvan - Highlands - Southwest Hills",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL345",
+            "lat": 45.511379,
+            "lon": -122.728905,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Ladd\u0027s Addition",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL542",
+            "lat": 45.510693,
+            "lon": -122.651062,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Sylvan Highlands",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL291",
+            "lat": 45.518204,
+            "lon": -122.728607,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Brookford",
+            "city": "Bridlemile",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBRIDL2",
+            "lat": 45.487293,
+            "lon": -122.714485,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "N of Bridlemile School",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL229",
+            "lat": 45.493332,
+            "lon": -122.723824,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Hillsdale",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL208",
+            "lat": 45.480961,
+            "lon": -122.696091,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Brooklyn",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL269",
+            "lat": 45.496391,
+            "lon": -122.651711,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Hosford - Abernethy",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL398",
+            "lat": 45.506981,
+            "lon": -122.645012,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "West Hillsdale",
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "id": "KORPORTL414",
+            "lat": 45.478363,
+            "lon": -122.703133,
+            "distance_km": 3,
+            "distance_mi": 2
+          }
+        ]
+      }
+    }
+  },
+
+
+  "current_observation": {
+    "image": {
+      "url": "http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title": "Weather Underground",
+      "link": "http://www.wunderground.com"
+    },
+    "display_location": {
+      "full": "Portland, OR",
+      "city": "Portland",
+      "state": "OR",
+      "state_name": "Oregon",
+      "country": "US",
+      "country_iso3166": "US",
+      "zip": "97201",
+      "magic": "1",
+      "wmo": "99999",
+      "latitude": "45.50999832",
+      "longitude": "-122.69000244",
+      "elevation": "99.4"
+    },
+    "observation_location": {
+      "full": "Portland Heights, Portland, Oregon",
+      "city": "Portland Heights, Portland",
+      "state": "Oregon",
+      "country": "US",
+      "country_iso3166": "US",
+      "latitude": "45.509354",
+      "longitude": "-122.700302",
+      "elevation": "630 ft"
+    },
+    "estimated": {
+    },
+    "station_id": "KORPORTL814",
+    "observation_time": "Last Updated on December 28, 11:02 AM PST",
+    "observation_time_rfc822": "Thu, 28 Dec 2017 11:02:49 -0800",
+    "observation_epoch": "1514487769",
+    "local_time_rfc822": "Thu, 28 Dec 2017 11:03:38 -0800",
+    "local_epoch": "1514487818",
+    "local_tz_short": "PST",
+    "local_tz_long": "America/Los_Angeles",
+    "local_tz_offset": "-0800",
+    "weather": "Overcast",
+    "temperature_string": "40.2 F (4.6 C)",
+    "temp_f": 40.2,
+    "temp_c": 4.6,
+    "relative_humidity": "93%",
+    "wind_string": "Calm",
+    "wind_dir": "South",
+    "wind_degrees": 180,
+    "wind_mph": 0.0,
+    "wind_gust_mph": 0,
+    "wind_kph": 0,
+    "wind_gust_kph": 0,
+    "pressure_mb": "1023",
+    "pressure_in": "30.22",
+    "pressure_trend": "-",
+    "dewpoint_string": "38 F (3 C)",
+    "dewpoint_f": 38,
+    "dewpoint_c": 3,
+    "heat_index_string": "NA",
+    "heat_index_f": "NA",
+    "heat_index_c": "NA",
+    "windchill_string": "40 F (5 C)",
+    "windchill_f": "40",
+    "windchill_c": "5",
+    "feelslike_string": "40 F (5 C)",
+    "feelslike_f": "40",
+    "feelslike_c": "5",
+    "visibility_mi": "8.0",
+    "visibility_km": "12.9",
+    "solarradiation": "--",
+    "UV": "0",
+    "precip_1hr_string": "0.00 in ( 0 mm)",
+    "precip_1hr_in": "0.00",
+    "precip_1hr_metric": " 0",
+    "precip_today_string": "0.12 in (3 mm)",
+    "precip_today_in": "0.12",
+    "precip_today_metric": "3",
+    "icon": "cloudy",
+    "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+    "forecast_url": "http://www.wunderground.com/US/OR/Portland.html",
+    "history_url": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KORPORTL814",
+    "ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=45.509354,-122.700302",
+    "nowcast": ""
+  }
+
+
+}

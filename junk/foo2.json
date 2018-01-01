@@ -1,0 +1,482 @@
+{
+
+
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1,
+      "astronomy": 1
+    }
+  },
+
+
+  "location": {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "OR",
+    "city": "Beavercreek",
+    "tz_short": "PST",
+    "tz_long": "America/Los_Angeles",
+    "lat": "45.25000000",
+    "lon": "-122.48000336",
+    "zip": "97004",
+    "magic": "1",
+    "wmo": "99999",
+    "l": "/q/zmw:97004.1.99999",
+    "requesturl": "US/OR/Beavercreek.html",
+    "wuiurl": "https://www.wunderground.com/US/OR/Beavercreek.html",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "Aurora",
+            "state": "OR",
+            "country": "US",
+            "icao": "KUAO",
+            "lat": "45.25000000",
+            "lon": "-122.76999664"
+          },
+          {
+            "city": "Portland Troutdale",
+            "state": "OR",
+            "country": "US",
+            "icao": "KTTD",
+            "lat": "45.54999924",
+            "lon": "-122.40000153"
+          },
+          {
+            "city": "Portland",
+            "state": "OR",
+            "country": "US",
+            "icao": "KPDX",
+            "lat": "45.59000015",
+            "lon": "-122.59999847"
+          },
+          {
+            "city": "Vancouver",
+            "state": "WA",
+            "country": "US",
+            "icao": "KVUO",
+            "lat": "45.61999893",
+            "lon": "-122.66000366"
+          }
+        ]
+      },
+      "pws": {
+        "station": [
+          {
+            "neighborhood": "Larkin",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE156",
+            "lat": 45.248039,
+            "lon": -122.506577,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Deer Alley",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE113",
+            "lat": 45.242336,
+            "lon": -122.514534,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Hopkins Demonstration Forest",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO37",
+            "lat": 45.249893,
+            "lon": -122.522476,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Highland Butte",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE52",
+            "lat": 45.245178,
+            "lon": -122.435654,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Clarkes Highland",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE287",
+            "lat": 45.229691,
+            "lon": -122.440712,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "LazyXS (Beavercreek)",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE178",
+            "lat": 45.226414,
+            "lon": -122.526222,
+            "distance_km": 4,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Beavercreek",
+            "city": "Beavercreek",
+            "state": "OR",
+            "country": "US",
+            "id": "KORBEAVE148",
+            "lat": 45.272121,
+            "lon": -122.532951,
+            "distance_km": 4,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Beaver Lake Estates",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO72",
+            "lat": 45.312050,
+            "lon": -122.500610,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Mulino",
+            "city": "Mulino",
+            "state": "OR",
+            "country": "US",
+            "id": "KORMULIN2",
+            "lat": 45.233738,
+            "lon": -122.577362,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Beavercreek rd, Mulino",
+            "city": "Mulino",
+            "state": "OR",
+            "country": "US",
+            "id": "KORMULIN3",
+            "lat": 45.178654,
+            "lon": -122.501389,
+            "distance_km": 8,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "RickontheCrick",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO10",
+            "lat": 45.177326,
+            "lon": -122.441780,
+            "distance_km": 8,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "International Rust Farm",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO8",
+            "lat": 45.174980,
+            "lon": -122.439713,
+            "distance_km": 8,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "Bull Creek Station",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO9",
+            "lat": 45.164413,
+            "lon": -122.475426,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "Sasquatch Station",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO6",
+            "lat": 45.179958,
+            "lon": -122.403305,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "Pioneer Place",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO74",
+            "lat": 45.315086,
+            "lon": -122.567543,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "House Study",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO55",
+            "lat": 45.297138,
+            "lon": -122.588562,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "Redland",
+            "city": "Redland",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO13",
+            "lat": 45.339951,
+            "lon": -122.489655,
+            "distance_km": 10,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Metzler Park-",
+            "city": "Estacada",
+            "state": "OR",
+            "country": "US",
+            "id": "KORESTAC6",
+            "lat": 45.233261,
+            "lon": -122.354088,
+            "distance_km": 10,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Tween Bee and Canyon creeks",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO14",
+            "lat": 45.164082,
+            "lon": -122.432693,
+            "distance_km": 10,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "VictorySeeds.com",
+            "city": "Liberal",
+            "state": "OR",
+            "country": "US",
+            "id": "KORLIBER1",
+            "lat": 45.186600,
+            "lon": -122.587898,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Colton",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO7",
+            "lat": 45.155533,
+            "lon": -122.429085,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Redland/DeLano Farms",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO41",
+            "lat": 45.351551,
+            "lon": -122.490067,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Sprague Road",
+            "city": "Molalla",
+            "state": "OR",
+            "country": "US",
+            "id": "KORMOLAL28",
+            "lat": 45.170506,
+            "lon": -122.576088,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Day Hill",
+            "city": "Estacada",
+            "state": "OR",
+            "country": "US",
+            "id": "KORESTAC13",
+            "lat": 45.262993,
+            "lon": -122.327515,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "Quarter Moon Ranch Weather",
+            "city": "Canby",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCANBY8",
+            "lat": 45.275879,
+            "lon": -122.632729,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "Hillendale",
+            "city": "Mount Pleasant",
+            "state": "OR",
+            "country": "US",
+            "id": "KORMOUNT11",
+            "lat": 45.327820,
+            "lon": -122.598862,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "Hogan",
+            "city": "Estacada",
+            "state": "OR",
+            "country": "US",
+            "id": "KORESTAC20",
+            "lat": 45.297661,
+            "lon": -122.327271,
+            "distance_km": 13,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "Elwood",
+            "city": "Colton",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCOLTO11",
+            "lat": 45.187004,
+            "lon": -122.336342,
+            "distance_km": 13,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "Bradley Rd",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO23",
+            "lat": 45.366199,
+            "lon": -122.518692,
+            "distance_km": 13,
+            "distance_mi": 7
+          },
+          {
+            "neighborhood": "S. Young Rd",
+            "city": "Molalla",
+            "state": "OR",
+            "country": "US",
+            "id": "KORMOLAL32",
+            "lat": 45.128223,
+            "lon": -122.453941,
+            "distance_km": 13,
+            "distance_mi": 8
+          },
+          {
+            "neighborhood": "Robson Acres",
+            "city": "Canby",
+            "state": "OR",
+            "country": "US",
+            "id": "KORCANBY25",
+            "lat": 45.194687,
+            "lon": -122.636337,
+            "distance_km": 13,
+            "distance_mi": 8
+          },
+          {
+            "neighborhood": "george ann",
+            "city": "Oregon City",
+            "state": "OR",
+            "country": "US",
+            "id": "KOROREGO67",
+            "lat": 45.303268,
+            "lon": -122.640465,
+            "distance_km": 13,
+            "distance_mi": 8
+          },
+          {
+            "neighborhood": "valley view airport glide path",
+            "city": "Estacada",
+            "state": "OR",
+            "country": "US",
+            "id": "KORESTAC9",
+            "lat": 45.300323,
+            "lon": -122.316620,
+            "distance_km": 13,
+            "distance_mi": 8
+          }
+        ]
+      }
+    }
+  },
+
+
+
+  "moon_phase": {
+    "percentIlluminated": "75",
+    "ageOfMoon": "10",
+    "phaseofMoon": "Waxing Gibbous",
+    "hemisphere": "North",
+    "current_time": {
+      "hour": "11",
+      "minute": "20"
+    },
+    "sunrise": {
+      "hour": "7",
+      "minute": "48"
+    },
+    "sunset": {
+      "hour": "16",
+      "minute": "34"
+    },
+    "moonrise": {
+      "hour": "13",
+      "minute": "33"
+    },
+    "moonset": {
+      "hour": "2",
+      "minute": "19"
+    }
+  },
+
+
+
+  "sun_phase": {
+    "sunrise": {
+      "hour": "7",
+      "minute": "48"
+    },
+    "sunset": {
+      "hour": "16",
+      "minute": "34"
+    }
+  }
+
+
+
+}
