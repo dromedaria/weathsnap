@@ -3,7 +3,8 @@
 #		https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html
 # Without this, Make would always do "cat build.sh >build; chmod a+x build", whenever I did have a file called "build.sh".
 .PHONY: build
-# FOUND IT!  The case with *.sh files is due to "Implicit Rules" (aka Built-In Rules), specificaly added "for the benefit of SCCS".
+# FOUND THE PROBLEM!  The issue with *.sh files is due to "Implicit Rules" (aka Built-In Rules), specificaly one rule
+# added "for the benefit of SCCS". To prevent this implicit rule's action, must use the above ".PHONY" rule.
 #		https://www.gnu.org/software/make/manual/html_node/Catalogue-of-Rules.html#Catalogue-of-Rules
 
 build:  make-image
@@ -14,11 +15,11 @@ make-image:
 
 # Whichever docker registry you set with "docker login" command
 publish-image-docker-hub:
-	docker tag weathsnap-app
-	docker push weathsnap-app
+	docker tag weathsnap-app weathsnap-app:latest
+	docker push weathsnap-app:latest
 
-# Public docker registry in Docker Hub. Amazon ECS FarGate does not support private docker registries other than than Amazon ECR.
+# Public docker registry in Docker Hub. Amazon ECS Fargate does not support private docker registries other than those in Amazon ECR.
 publish-image-docker-hub-dromedaria:
-	docker tag weathsnap-app dromedaria/weathsnap-app
-	docker push dromedaria/weathsnap-app
+	docker tag weathsnap-app dromedaria/weathsnap-app:latest
+	docker push dromedaria/weathsnap-app:latest
 
